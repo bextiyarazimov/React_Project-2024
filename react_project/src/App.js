@@ -9,6 +9,7 @@ import About from "./component/About";
 import Contact from "./component/Contact";
 import Checkout  from './component/Checkout';
 
+
 function App() {
   return (
     <>
@@ -21,7 +22,6 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/checkout" component={Checkout} />
-
         
 
       </Switch>
