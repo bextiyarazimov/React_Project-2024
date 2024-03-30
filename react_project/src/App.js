@@ -8,6 +8,9 @@ import Cart from "./component/Cart";
 import About from "./component/About";
 import Contact from "./component/Contact";
 import Checkout  from './component/Checkout';
+import Login from "./component/Login";
+import Register from "./component/Register";
+
 
 
 function App() {
@@ -22,6 +25,9 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/checkout" component={Checkout} />
+        <Route exact path="/login" component={Login} />
+        <Register/>
+
         
 
       </Switch>

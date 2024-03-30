@@ -1,11 +1,12 @@
 import React from "react";
 import Products from "./Products";
 import Footer from "./Footer";
-import './Home.css';
+import './home.css';
+
 
 const Home = () => {
   return (
-    <div classNameName="hero">
+    <div className="hero">
       <div className="card bg-dark text-white border-0">
        <video src="/assets/video-1.mp4" autoPlay loop muted />
         <div className="card-img-overlay d-flex flex-column 
