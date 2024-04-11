@@ -1,5 +1,5 @@
 import React from 'react';
-import './ooter.css';
+import './footer.css';
 
 
 

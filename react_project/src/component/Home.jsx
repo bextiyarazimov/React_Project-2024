@@ -1,7 +1,7 @@
 import React from "react";
 import Products from "./Products";
 import Footer from "./Footer";
-import './Home.css';
+import './home.css';
 
 
 const Home = () => {
